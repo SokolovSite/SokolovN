@@ -1,0 +1,223 @@
+body {
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Padauk', sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.img {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 12px 0px;
+    color: rgb(93, 50, 102);
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(53, 51, 49);
+}
+
+.img-title {
+    margin-right: 40px;
+}
+
+.header-desc-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(53, 51, 49);
+}
+
+.header-desc-info {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(53, 51, 49);
+}
+
+.social-title {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.info-desc {
+    text-decoration: none;
+    color: rgb(53, 51, 49);
+    font-size: 20px;
+    transition: color 0.3s linear;
+    padding-right: 12px;
+}
+
+.info-desc:hover {
+    color: aqua;
+}
+
+.hobby {
+    background-color: rgba(255, 250, 205, 0.8);
+    margin-top: 35px;
+    border-radius: 10px;
+
+}
+
+.hobby-title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(53, 51, 49);
+}
+
+.hobby-desc {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(53, 51, 49);
+}
+
+.exp {
+    background-color: rgba(255, 250, 205, 0.8);
+    ;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+.exp-title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(53, 51, 49);
+}
+
+.exp-desc {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(53, 51, 49);
+}
+
+.courses {
+    background-color: rgba(255, 250, 205, 0.8);
+    ;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+.cours-title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(53, 51, 49);
+}
+
+.cours-desc {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(53, 51, 49);
+}
+
+.desc-site {
+    text-decoration: none;
+    color: rgb(53, 51, 49);
+    transition: 0.3s linear;
+}
+
+.desc-site:hover {
+    font-size: 21px;
+    color: rgb(230, 86, 86);
+}
+
+.school-holder {
+    position: relative;
+}
+
+
+.img-rs {
+    border-radius: 55%;
+    width: 100px;
+    margin-top: 40px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.contact {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(28, 27, 26);
+    margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px 10px;
+    outline: none;
+}
+
+.form-group label {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(2, 2, 2);
+}
+
+.btn {
+
+    background: rgb(0, 0, 0);
+    padding: 15px 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/*АДАПТАЦИЯ САЙТА*/
+
+@media(max-width:500px) {
+    .header-title{
+        display: block;
+        text-align: center;
+    }
+    .img{
+        display: block;
+        margin: auto;
+        text-align: center;
+       
+    }
+}
+
+@media(max-width:499px){
+    .img-title{
+        margin: 0;
+    }
+}
+
+@media(max-width:1082px){
+    .img-rs{
+        width: 40px;
+        right: 20px;
+        bottom: 10px;
+    }
+}
